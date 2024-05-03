@@ -10,6 +10,8 @@ import Otarie from "../assets/img/png/OTARIE.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette4 from "../components/Devinette4";
+
 
 const Antarticque = () => {
     return (
@@ -122,6 +124,7 @@ const Antarticque = () => {
 
                 </article>
             </div>
+            <Devinette4/>
 
             <Footer/>
 

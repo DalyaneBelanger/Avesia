@@ -11,6 +11,8 @@ import RedPanda from "../assets/img/png/PANDA ROUX.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette2 from "../components/Devinette2";
+
 
 const Asie = () => {
     return (
@@ -121,7 +123,7 @@ const Asie = () => {
 
                 </article>
             </div>
-
+             <Devinette2/>
             <Footer/>
             <ScrollToTop top={0} smooth />
         </div>

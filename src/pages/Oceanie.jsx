@@ -10,6 +10,8 @@ import Crocodile from "../assets/img/png/CROCODILE.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette3 from "../components/Devinette3";
+
 const Oceanie = () => {
     return (
         <div className="oceanie-body">
@@ -125,7 +127,7 @@ const Oceanie = () => {
 
                 </article>
             </div>
-
+            <Devinette3/>
             <Footer/>
 
             <ScrollToTop top={0} smooth />

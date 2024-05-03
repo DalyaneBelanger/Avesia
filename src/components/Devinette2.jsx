@@ -44,7 +44,7 @@ const Devinette2 = () => {
     useEffect(() => { 
         if (mauvaisChoix >= 3) { 
             // Code to show the popup or message for game over 
-            window.alert("Game Over! You made too many wrong guesses."); 
+            window.alert("Fin de la partie ! Vous avez gaspillé trop d'essais."); 
             recommencer(); 
         } 
     }, [mauvaisChoix]); 
@@ -95,9 +95,9 @@ const Devinette2 = () => {
   
     const devinerMot = () => { 
         if (verifierMot()) { 
-            setMessage("Congo Geek! You have guessed the word correctly!"); 
+            setMessage("Bravo ! Vous avez deviné le mot !"); 
         } else { 
-            setMessage("You made a Wrong Guess Geek!. Try again!"); 
+            setMessage("Dommage, ce n'était pas le bon mot."); 
             setMotAfficher(true); 
         } 
     }; 

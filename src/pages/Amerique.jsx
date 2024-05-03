@@ -10,6 +10,7 @@ import Lynx from "../assets/img/png/LYNX.png";
 
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
+import Devinette5 from "../components/Devinette5";
 
 const Amerique = () => {
     return (
@@ -128,6 +129,7 @@ const Amerique = () => {
 
                 </article>
             </div>
+            <Devinette5/>
 
             <Footer/>
 
