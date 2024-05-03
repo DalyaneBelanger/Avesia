@@ -12,6 +12,8 @@ import Zebre from "../assets/img/png/ZEBRE.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import { motion } from "framer-motion";
+
 const Afrique = () => {
     return (
         <div className="afrique-body">
@@ -29,7 +31,9 @@ const Afrique = () => {
                 faisant de ce continent un véritable paradis pour les amoureux de la nature.
                 L'afrique, de son charme culturel et sa chaleur, a beaucoup de choses à montrer :
                 </p>
-                <div className="categories">
+                <motion.div className="categories"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1}} >
                     <div className="item">
                     <span class="material-icons">
                         emoji_nature
@@ -50,7 +54,7 @@ const Afrique = () => {
                     </div>
 
                     
-                </div>
+                </motion.div>
                 <div className="module">
                     <Spline scene="https://prod.spline.design/YXf8VT2d-knNIF-9/scene.splinecode" />
                 </div>
