@@ -22,7 +22,7 @@ const Oceanie = () => {
             </header>
             <div className="gallerie">
                 <h1>À Propos de l'Océanie</h1>
-                <p>On vous présente le continent le plus glacé du monde entier.</p>
+                <p>On vous présente le continent d'une remarcable biodiversité.</p>
                 <p className="paragraphe">
                 L'Océanie est un ensemble de pays et d'îles dispersés à travers l'océan Pacifique,
                 formant un mélange éclectique de cultures, de paysages et de biodiversité.

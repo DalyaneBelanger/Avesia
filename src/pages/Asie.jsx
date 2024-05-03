@@ -24,7 +24,7 @@ const Asie = () => {
             </header>
             <div className="gallerie">
                 <h1>À Propos de l'Asie</h1>
-                <p>On vous présente le continent le plus glacé du monde entier.</p>
+                <p>On vous présente le continent le plus diversifié du monde entier.</p>
                 <p className="paragraphe">
                 L'Asie est un continent d'une richesse incommensurable,
                 où la nature, la culture et l'histoire se mêlent pour créer un tableau fascinant et diversifié.
