@@ -24,11 +24,10 @@ const Oceanie = () => {
                 <h1>À Propos de l'Océanie</h1>
                 <p>On vous présente le continent le plus glacé du monde entier.</p>
                 <p className="paragraphe">
-                L'Antarctique est un continent unique et mystérieux,
-                recouvert à près de 98 % par une épaisse couche de glace,
-                en faisant ainsi le continent le plus froid,
-                le plus sec et le plus venteux de la planète. Les espèces vivant dans sur ce continent impitoyable sont forcées à s'adapter
-                à son climat difficile. Malgré ceci, l'Antarticque a des choses absolument magnifiques à démontrer.
+                L'Océanie est un ensemble de pays et d'îles dispersés à travers l'océan Pacifique,
+                formant un mélange éclectique de cultures, de paysages et de biodiversité.
+                C'est un continent à part entière, bien que souvent moins évoqué que d'autres,
+                mais il regorge de richesses naturelles et culturelles uniques.
                 </p>
                 <motion.div className="categories">
                     <div className="item">

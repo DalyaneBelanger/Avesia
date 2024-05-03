@@ -26,11 +26,10 @@ const Asie = () => {
                 <h1>À Propos de l'Asie</h1>
                 <p>On vous présente le continent le plus glacé du monde entier.</p>
                 <p className="paragraphe">
-                L'Antarctique est un continent unique et mystérieux,
-                recouvert à près de 98 % par une épaisse couche de glace,
-                en faisant ainsi le continent le plus froid,
-                le plus sec et le plus venteux de la planète. Les espèces vivant dans sur ce continent impitoyable sont forcées à s'adapter
-                à son climat difficile. Malgré ceci, l'Antarticque a des choses absolument magnifiques à démontrer.
+                L'Asie est un continent d'une richesse incommensurable,
+                où la nature, la culture et l'histoire se mêlent pour créer un tableau fascinant et diversifié.
+                De ses paysages époustouflants à ses traditions anciennes, l'Asie offre une
+                expérience inoubliable à ceux qui ont la chance de l'explorer.
                 </p>
                 <motion.div className="categories" initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1}}>
