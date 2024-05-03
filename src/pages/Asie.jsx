@@ -11,6 +11,10 @@ import RedPanda from "../assets/img/png/PANDA ROUX.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette2 from "../components/Devinette2";
+
+import { motion } from "framer-motion";
+
 
 const Asie = () => {
     return (
@@ -28,7 +32,8 @@ const Asie = () => {
                 le plus sec et le plus venteux de la planète. Les espèces vivant dans sur ce continent impitoyable sont forcées à s'adapter
                 à son climat difficile. Malgré ceci, l'Antarticque a des choses absolument magnifiques à démontrer.
                 </p>
-                <div className="categories">
+                <motion.div className="categories" initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1}}>
                     <div className="item">
                     <span class="material-icons">
                     store
@@ -47,7 +52,7 @@ const Asie = () => {
                        </span>
                         <p>De la cuisine exotique</p>
                     </div>
-                </div>
+                </motion.div>
                 <div className="module">
                    <Spline scene="https://prod.spline.design/6EAeMRUiv3WGgaSM/scene.splinecode" />
                 </div>
@@ -121,7 +126,7 @@ const Asie = () => {
 
                 </article>
             </div>
-
+             <Devinette2/>
             <Footer/>
             <ScrollToTop top={0} smooth />
         </div>

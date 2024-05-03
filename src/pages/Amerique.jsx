@@ -10,6 +10,9 @@ import Lynx from "../assets/img/png/LYNX.png";
 
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
+import Devinette5 from "../components/Devinette5";
+
+import { motion } from "framer-motion";
 
 const Amerique = () => {
     return (
@@ -27,7 +30,8 @@ const Amerique = () => {
                 Sa faune et sa flore reflètent cette diversité,
                 offrant une incroyable variété d'habitats et d'espèces.
                 </p>
-                <div className="categories">
+                <motion.div className="categories" initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1}}>
                     <div className="item">
                     <span class="material-icons">
                       flight_takeoff
@@ -46,7 +50,7 @@ const Amerique = () => {
                        </span>
                         <p>Des monuments légendaires</p>
                     </div>
-                </div>
+                </motion.div>
                 <div className="module">
                   <Spline scene="https://prod.spline.design/u4o61oaDuuKnZyw1/scene.splinecode" />
                 </div>
@@ -128,6 +132,7 @@ const Amerique = () => {
 
                 </article>
             </div>
+            <Devinette5/>
 
             <Footer/>
 

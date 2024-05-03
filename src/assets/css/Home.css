@@ -93,12 +93,13 @@ article > .boite .nom a {
     padding: 0.5em 2em;
     border-radius: 1em;
     color: var(--blanc);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 article > .boite .nom a:hover {
     background-color: var(--noir);
     transition: 0.5s;
-    padding: 0 4em;
+    padding: 1em 3em;
 }
 
 article > .boite .module {

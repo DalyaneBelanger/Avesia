@@ -10,6 +10,10 @@ import Crocodile from "../assets/img/png/CROCODILE.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette3 from "../components/Devinette3";
+
+import { motion } from "framer-motion";
+
 const Oceanie = () => {
     return (
         <div className="oceanie-body">
@@ -26,7 +30,7 @@ const Oceanie = () => {
                 le plus sec et le plus venteux de la planète. Les espèces vivant dans sur ce continent impitoyable sont forcées à s'adapter
                 à son climat difficile. Malgré ceci, l'Antarticque a des choses absolument magnifiques à démontrer.
                 </p>
-                <div className="categories">
+                <motion.div className="categories">
                     <div className="item">
                     <span class="material-icons">
                       sailing
@@ -45,7 +49,7 @@ const Oceanie = () => {
                        </span>
                         <p>Un biodiversité remarquable</p>
                     </div>
-                </div>
+                </motion.div>
                 <div className="module">
                    <Spline scene="https://prod.spline.design/Apoo8xlj0vlHZw-Q/scene.splinecode" />
                 </div>
@@ -125,7 +129,7 @@ const Oceanie = () => {
 
                 </article>
             </div>
-
+            <Devinette3/>
             <Footer/>
 
             <ScrollToTop top={0} smooth />

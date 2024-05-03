@@ -53,23 +53,23 @@
     background-color: var(--vert);
 }
 
-.gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
+.amerique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
 
     background-color: rgba(70, 182, 170, 0.501);
  }
  
  
- .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
+ .amerique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
  
     background-color: rgba(70, 182, 170, 0.501);
  }
  
- .gallerie .animaux-container .animal-container .animal .info {
+.amerique-body .gallerie .animaux-container .animal-container .animal .info {
      padding: 1em 5em;
      width: 70%;
  }
  
- .gallerie .animaux-container .animal-container .animal .info p {
+.amerique-body .gallerie .animaux-container .animal-container .animal .info p {
      font-size: 1.5em;
      padding: 0 2em;
      text-align: center;
@@ -77,7 +77,7 @@
  }
  
  
- .gallerie .animaux-container .animal-container .animal .image img {
+.amerique-body .gallerie .animaux-container .animal-container .animal .image img {
      border-radius: 2em;
      width: 80%;
  }

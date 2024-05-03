@@ -2,28 +2,28 @@ import React, { useState, useEffect } from "react";
 import "../assets/css/Devinette.css";
 const motsSecrets = [ 
     { 
-        mot: "LION", 
-        description: "cet animal est surnommé le roi de la jungle."
+        mot: "HIMALAYA", 
+        description: "cet endroit est la plus haute chaîne de montagne au monde."
     }, 
     { 
-        mot: "SAVANE", 
-        description: "Un endroit symbolique de l'afrique, une forêt remplie de lianes et de l'herbe haute."
+        mot: "PANDA", 
+        description: "C'est l'animal typique de l'Asie, connu de son pelage noir et blanc."
     }, 
     { 
-        mot: "SAHARA", 
-        description: "Cet endroit est le plus chaud du monde entier, avec du sable à perte de vue."
+        mot: "SUSHI", 
+        description: "Un plat japonais populaire composé de riz vinaigré et de poisson cru."
     }, 
     { 
-        mot: "PYRAMIDE", 
-        description: "Un monument historique construit par le peuple égyptien."
+        mot: "BOLLYWOOD", 
+        description: "L'industrie cinématographique indienne."
     }, 
     { 
-        mot: "OASIS", 
-        description: "Cet endroit est une région fertile dans le désert, souvent entouré de végétation et d'eau."
+        mot: "KIMONO", 
+        description: "Un vêtement traditionnel japonais, que l'on peut apercevoir surtout lors des festivités."
     }, 
     { 
-        mot: "DJEMBE", 
-        description: "C'est un objet africain, qui est un instrument à percussion."
+        mot: "BANGKOK", 
+        description: "La capitale de la Thaïlande, célèbre pour ses temples et sa cuisine."
     } 
 ]; 
   
@@ -32,7 +32,7 @@ const motHasard = () => {
     return motsSecrets[placeRandom]; 
 }; 
   
-const Devinette = () => { 
+const Devinette2 = () => { 
     const [motData, setMotData] = useState(motHasard()); 
     const [message, setMessage] = useState(""); 
     const [lettresChoisies, setLettresChoisies] = useState([]); 
@@ -177,4 +177,4 @@ const Devinette = () => {
     ); 
 }; 
   
-export default Devinette; 
+export default Devinette2; 

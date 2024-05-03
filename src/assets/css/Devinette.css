@@ -5,7 +5,7 @@
     justify-content: center; 
     min-height: 100vh; 
     background-color: #f5f5f5;
-    padding: 1em 2em;
+    padding: 4em 2em;
   } 
     
   h1 { 
@@ -146,8 +146,8 @@
   } 
     
   .message { 
-    font-size: 24px; 
-    font-weight: bold; 
+    font-size: 2em; 
+    font-weight: 900; 
     color: #333; 
     text-align: center; 
     margin-bottom: 20px; 

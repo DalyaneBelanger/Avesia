@@ -82,23 +82,23 @@
 
 }
 
-.gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
+.afrique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
 
    background-color: antiquewhite;
 }
 
 
-.gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
+.afrique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
 
     background-color: antiquewhite;
 }
 
-.gallerie .animaux-container .animal-container .animal .info {
+.afrique-body .gallerie .animaux-container .animal-container .animal .info {
     padding: 1em 5em;
     width: 70%;
 }
 
-.gallerie .animaux-container .animal-container .animal .info p {
+.afrique-body .gallerie .animaux-container .animal-container .animal .info p {
     font-size: 1.5em;
     padding: 0 2em;
     text-align: center;

@@ -2,28 +2,28 @@ import React, { useState, useEffect } from "react";
 import "../assets/css/Devinette.css";
 const motsSecrets = [ 
     { 
-        mot: "LION", 
-        description: "cet animal est surnommé le roi de la jungle."
+        mot: "PINGOUIN", 
+        description: "Un oiseau marin qui habite les régions antarctiques, connu pour son incapabilité de voler."
     }, 
     { 
-        mot: "SAVANE", 
-        description: "Un endroit symbolique de l'afrique, une forêt remplie de lianes et de l'herbe haute."
+        mot: "ICEBERG", 
+        description: "De grandes masses de glace flottante qui se détachent des glaciers de l'Antarctique."
     }, 
     { 
-        mot: "SAHARA", 
-        description: "Cet endroit est le plus chaud du monde entier, avec du sable à perte de vue."
+        mot: "BANQUISE", 
+        description: "La glace de mer qui entoure l'Antarctique pendant une grande partie de l'année."
     }, 
     { 
-        mot: "PYRAMIDE", 
-        description: "Un monument historique construit par le peuple égyptien."
+        mot: "GLACE", 
+        description: "De l'eau à l'état de solide. La grande majorité de l'Antarctique est recouverte de cette substance."
     }, 
     { 
-        mot: "OASIS", 
-        description: "Cet endroit est une région fertile dans le désert, souvent entouré de végétation et d'eau."
+        mot: "NEIGE", 
+        description: "Précipitation principale de cette région, qui peut s'accumuler en couches épaisses."
     }, 
     { 
-        mot: "DJEMBE", 
-        description: "C'est un objet africain, qui est un instrument à percussion."
+        mot: "AURORE", 
+        description: "Un spectacle lumineux dans le ciel antarctique, dont le nom se termine par boréales."
     } 
 ]; 
   
@@ -32,7 +32,7 @@ const motHasard = () => {
     return motsSecrets[placeRandom]; 
 }; 
   
-const Devinette = () => { 
+const Devinette4 = () => { 
     const [motData, setMotData] = useState(motHasard()); 
     const [message, setMessage] = useState(""); 
     const [lettresChoisies, setLettresChoisies] = useState([]); 
@@ -177,4 +177,4 @@ const Devinette = () => {
     ); 
 }; 
   
-export default Devinette; 
+export default Devinette4; 

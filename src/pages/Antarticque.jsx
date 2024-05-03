@@ -10,6 +10,10 @@ import Otarie from "../assets/img/png/OTARIE.png";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Devinette4 from "../components/Devinette4";
+
+import { motion } from "framer-motion";
+
 
 const Antarticque = () => {
     return (
@@ -28,7 +32,8 @@ const Antarticque = () => {
                 le plus sec et le plus venteux de la planète. Les espèces vivant dans sur ce continent impitoyable sont forcées à s'adapter
                 à son climat difficile. Malgré ceci, l'Antarticque a des choses absolument magnifiques à démontrer.
                 </p>
-                <div className="categories">
+                <motion.div className="categories" initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1}}>
                     <div className="item">
                     <span class="material-icons">
                        landscape
@@ -47,7 +52,7 @@ const Antarticque = () => {
                        </span>
                         <p>De l'obscurité permanente</p>
                     </div>
-                </div>
+                </motion.div>
                 <div className="module">
                     <Spline scene="https://prod.spline.design/TFR-YL6wrampk5Wv/scene.splinecode" />
                 </div>
@@ -122,6 +127,7 @@ const Antarticque = () => {
 
                 </article>
             </div>
+            <Devinette4/>
 
             <Footer/>
 

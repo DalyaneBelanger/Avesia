@@ -2,28 +2,28 @@ import React, { useState, useEffect } from "react";
 import "../assets/css/Devinette.css";
 const motsSecrets = [ 
     { 
-        mot: "LION", 
-        description: "cet animal est surnommé le roi de la jungle."
+        mot: "KOALA", 
+        description: "Un animal marsupial emblématique d'Australie. Est connu pour son choix spécifique de feuilles qu'il consomme."
     }, 
     { 
-        mot: "SAVANE", 
-        description: "Un endroit symbolique de l'afrique, une forêt remplie de lianes et de l'herbe haute."
+        mot: "BOOMERANG", 
+        description: "Un outil de chasse traditionnel aborigène australien. Il reviens toujours à son envoyeur après son lancer."
     }, 
     { 
-        mot: "SAHARA", 
-        description: "Cet endroit est le plus chaud du monde entier, avec du sable à perte de vue."
+        mot: "SURF", 
+        description: "Une activité populaire sur les plages d'Océanie, qui implique une planche faite de bois et d'une combinaison aquatique."
     }, 
     { 
-        mot: "PYRAMIDE", 
-        description: "Un monument historique construit par le peuple égyptien."
+        mot: "FIDJI", 
+        description: "Un archipel d'îles du Pacifique Sud, célèbre pour ses plages de sable blanc."
     }, 
     { 
-        mot: "OASIS", 
-        description: "Cet endroit est une région fertile dans le désert, souvent entouré de végétation et d'eau."
+        mot: "VOLCAN", 
+        description: "Une montagne plus dangereuse que les autres, et de temps en temps - elle explose et y entraîne plusieurs organismes dans sa propre destruction."
     }, 
     { 
-        mot: "DJEMBE", 
-        description: "C'est un objet africain, qui est un instrument à percussion."
+        mot: "SYDNEY", 
+        description: "La plus grande ville d'Australie, célèbre pour son opéra emblématique et son pont du port."
     } 
 ]; 
   
@@ -32,7 +32,7 @@ const motHasard = () => {
     return motsSecrets[placeRandom]; 
 }; 
   
-const Devinette = () => { 
+const Devinette3 = () => { 
     const [motData, setMotData] = useState(motHasard()); 
     const [message, setMessage] = useState(""); 
     const [lettresChoisies, setLettresChoisies] = useState([]); 
@@ -177,4 +177,4 @@ const Devinette = () => {
     ); 
 }; 
   
-export default Devinette; 
+export default Devinette3; 
