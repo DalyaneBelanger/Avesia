@@ -1,0 +1,32 @@
+.carte {
+    position: relative;
+}
+
+.carte img {
+    width: 100%;
+    display: block;
+    border: 2px solid var(--blanc);
+    border-radius: 1em;
+    
+}
+
+.carte .devant {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.tournee .devant {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.carte .derriere {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.tournee .derriere {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}

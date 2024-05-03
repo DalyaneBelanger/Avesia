@@ -1,0 +1,101 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo p, .logo img {
+    position: absolute;
+}
+.logo img {
+    width: 40vh;
+    top: -15em;
+}
+.logo p {
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 7em;
+    line-height: 1em;
+    top: -3em;
+    opacity: 30%;
+
+}
+
+.barre-haut {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.icone-barre {
+    padding: 2em;
+    
+}
+.icone-barre a {
+ color: black;
+}
+.icone-barre a span {
+    padding: 1em;
+    background-color: var(--blanc);
+    border-radius: 60%;
+}
+.titre-site {
+    padding: 2em;
+}
+
+.titre-site > a > h2 {
+    color: var(--blanc);
+    font-size: 80px;
+    font-family: 'Rubik';
+    font-weight: 900;
+}
+.contact {
+    padding: 1em;
+    
+}
+.contact a {
+    padding: 1em;
+    color: var(--blanc);
+    background-color: var(--orange-fonce);
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.menu ul li {
+    padding: 0.5em;
+    list-style-type: none;
+}
+.menu ul li a {
+    color: var(--blanc);
+}
+.menu ul li a:hover {
+    font-size: 4em;
+    color: var(--noir);
+    transition: 0.5s;
+    font-weight: 900;
+}

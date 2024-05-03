@@ -1,0 +1,90 @@
+.antarticque-body .gallerie {
+    padding: 2em;
+}
+
+.antarticque-body .gallerie h1 {
+    font-family: "Rubik";
+    font-size: 5em;
+    font-weight: 900;
+    text-align: left;
+    color: var(--noir);
+}
+.antarticque-body .gallerie p {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.antarticque-body .gallerie .categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 1.5em;
+}
+
+.antarticque-body .gallerie .categories .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    background-color: var(--blanc);
+    box-shadow: 0.9em 0.6em rgba(128, 128, 128, 0.053);
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.antarticque-body .gallerie .categories .item span {
+    font-size: 7em;
+    padding: 0.5em 0.9em;
+    border-radius: 0.2em;
+    color: var(--blanc);
+}
+.antarticque-body .gallerie .categories .item p {
+    font-family: "Fira Sans";
+    font-weight: 500;
+}
+.antarticque-body .gallerie .categories .item:nth-of-type(1) span, .antarticque-body .gallerie .categories .item:nth-of-type(3) span {
+    background-color: var(--bleu);
+    
+}
+
+.antarticque-body .gallerie .categories .item:nth-of-type(2) span {
+    background-color: var(--bleu-fonce);
+}
+
+.antarticque-body .gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
+
+    background-color: rgba(116, 210, 234, 0.247);
+ }
+ 
+ 
+ .antarticque-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
+ 
+    background-color: rgba(116, 210, 234, 0.247);
+ }
+ 
+ .antarticque-body .gallerie .animaux-container .animal-container .animal .info {
+     padding: 1em 5em;
+     width: 70%;
+ }
+ 
+ .antarticque-body .gallerie .animaux-container .animal-container .animal .info p {
+     font-size: 1.5em;
+     padding: 0 2em;
+     text-align: center;
+     display: block;
+ }
+ 
+ 
+ .antarticque-body .gallerie .animaux-container .animal-container .animal .image img {
+     border-radius: 2em;
+     width: 80%;
+ }
+
+.jeu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

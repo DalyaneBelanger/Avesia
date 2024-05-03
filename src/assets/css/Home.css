@@ -1,0 +1,213 @@
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+main article {
+    padding: 4em 0.5em;
+    
+    
+}
+main article h2 {
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 5em;
+    text-align: left;
+}
+
+main .presentation {
+    padding: 2em 8em;
+}
+
+main .presentation .title {
+    position: relative;
+}
+
+main .presentation .title h2 {
+    font-size: 4em;
+    font-family: 'Inter';
+    font-weight: 800;
+    z-index: 30;
+}
+main .presentation .title span {
+    position: absolute;
+    color: var(--orange-rouge);
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 9em;
+    width: 100%;
+    left: 0;
+    top: -80px;
+    z-index: 1;
+    opacity: 20%;
+}
+main .presentation p {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0.2em 9em;
+    text-align: left;
+}
+
+main article:first-of-type > h2 {
+    
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+main article:first-of-type {
+    background-color: var(--orange);
+}
+
+main article:nth-of-type(2) {
+    padding: 0 4em;
+}
+article .boite {
+    width: 100%;
+    margin: 2em;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+article > .boite .nom {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+    justify-content: center;
+}
+
+article > .boite .nom h3 {
+    font-size: 2em;
+    font-weight: 800;
+    
+}
+article > .boite .nom a {
+    font-size: 2em;
+    font-family: "Rubik";
+    font-weight: 900;
+    background-color: var(--orange);
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    color: var(--blanc);
+}
+
+article > .boite .nom a:hover {
+    background-color: var(--noir);
+    transition: 0.5s;
+    padding: 0 4em;
+}
+
+article > .boite .module {
+    height: 90vh;
+    width: 100%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.experience h3 {
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 3em;
+    text-align: left;
+    color: var(--orange);
+    
+}
+.experience p {
+   text-align: left;
+   color: var(--noir);
+   font-weight: 900;
+   padding: 0.5em;
+}
+.experience .bulle {
+    border-radius: 2em 2em 0 0;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.experience .bulle h2 {
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 4em;
+    text-align: left;
+}
+
+.experience .bulle div {
+    width: 100%;
+    margin: 2em;
+    padding: 5em;
+}
+.experience .bulle img {
+    width: 100%;
+    
+}
+
+.experience .bulle p {
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0.2em 2em;
+    text-align: left;
+}
+
+
+
+
+.separateur {
+    width: 100%;
+    padding: 2em;
+    height: 100vh;
+}
+
+.separateur .module {
+    width: 100%;
+    height: 100vh;
+}
+
+.zoos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.zoos h3 {
+    font-family: "Rubik";
+    font-weight: 900;
+    font-size: 3em;
+    text-align: center;
+    color: var(--noir);
+    padding: 2em;
+    
+}
+
+.zoos .categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.zoos .categories h3 {
+    font-size: 2em;
+    color: var(--blanc);
+}
+.zoos .categories div {
+    border-radius: 1em;
+
+}
+.zoos .categories .module {
+    width: 100%;
+    height: 70vh;
+}
+
