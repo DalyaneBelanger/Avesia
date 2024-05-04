@@ -1,0 +1,74 @@
+.home {
+    width: 100%;
+}
+
+.home .presentation {
+    background-color: var(--orange);
+    width: 100%;
+    padding: 4em 0;
+}
+
+.home .home-main {
+    width: 100%;
+}
+
+.home .home-main .expedition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 2em;
+}
+
+.home .home-main .expedition .expedition-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+
+.home .home-main .expedition .expedition-container .texte h3 {
+    font-size: 4em;
+}
+
+.home .home-main .expedition .expedition-container .texte span {
+    font-size: 0.4em;
+    display: block;
+}
+
+.home .home-main .expedition .expedition-container .texte a {
+   background-color: var(--orange);
+   padding: 1em 4em;
+   font-family: "Fira Sans";
+   font-size: 1.5em;
+   font-weight: 700;
+   border-radius: 1em;
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(1) .texte a:hover {
+    background-color: var(--orange-fonce);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(2) .texte a:hover {
+    background-color: var(--bleu-fonce);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(3) .texte a:hover {
+    background-color: var(--magenta-rouge);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(4) .texte a:hover {
+    background-color: var(--vert-fonce);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(5) .texte a:hover {
+    background-color: var(--turquoise-fonce);
+}
+
+.home .home-main .expedition .expedition-container .module {
+    padding: 4em 1em;
+    width: 100%;
+}
+

@@ -51,7 +51,7 @@ const Home = () =>
                 <div className="expedition-container">
 
                     <div className="texte">
-                        <h3>L'expédition ardente de <span>l'Afrique</span> </h3>
+                        <h3>L'Afrique <span> Safari au Cœur Sauvage </span> </h3>
                         <Link to="/afrique">Voir</Link>
                     </div>
                     <div className="module">
@@ -65,11 +65,11 @@ const Home = () =>
                 <div className="expedition-container">
 
                     <div className="texte">
-                        <h3>L'expédition ardente de <span>l'Afrique</span> </h3>
+                        <h3>L'Articque<span>Au confins glacés</span></h3>
                         <Link to="/afrique">Voir</Link>
                     </div>
                     <div className="module">
-                       <Spline scene="https://prod.spline.design/SFH8QBjAXU6HXAvH/scene.splinecode" />
+                        <Spline scene="https://prod.spline.design/U56mrvToBOFBKNGJ/scene.splinecode" />
                     </div>
 
                     
@@ -79,11 +79,11 @@ const Home = () =>
                 <div className="expedition-container">
 
                     <div className="texte">
-                        <h3>L'expédition ardente de <span>l'Afrique</span> </h3>
+                        <h3>L'Asie <span> Odyssée Orientale et Mystérieuse</span> </h3>
                         <Link to="/afrique">Voir</Link>
                     </div>
                     <div className="module">
-                       <Spline scene="https://prod.spline.design/SFH8QBjAXU6HXAvH/scene.splinecode" />
+                       <Spline scene="https://prod.spline.design/CMjc6XGvikYEXy62/scene.splinecode" />
                     </div>
 
                     
@@ -93,11 +93,11 @@ const Home = () =>
                 <div className="expedition-container">
 
                     <div className="texte">
-                        <h3>L'expédition ardente de <span>l'Afrique</span> </h3>
+                        <h3>L'Océanie<span> Découverte des îles perdues</span> </h3>
                         <Link to="/afrique">Voir</Link>
                     </div>
                     <div className="module">
-                       <Spline scene="https://prod.spline.design/SFH8QBjAXU6HXAvH/scene.splinecode" />
+                        <Spline scene="https://prod.spline.design/vQlg94XSoCWZWcHU/scene.splinecode" />
                     </div>
 
                     
@@ -107,11 +107,11 @@ const Home = () =>
                 <div className="expedition-container">
 
                     <div className="texte">
-                        <h3>L'expédition ardente de <span>l'Afrique</span> </h3>
+                        <h3>L'Amérique<span>L'Exploration des Grandes Étendues</span> </h3>
                         <Link to="/afrique">Voir</Link>
                     </div>
                     <div className="module">
-                       <Spline scene="https://prod.spline.design/SFH8QBjAXU6HXAvH/scene.splinecode" />
+                        <Spline scene="https://prod.spline.design/R8EKN0r78wDhLQIS/scene.splinecode" />
                     </div>
 
                     
