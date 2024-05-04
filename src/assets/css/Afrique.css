@@ -55,24 +55,20 @@
 
 .gallerie .animaux-container {
     padding: 1em 2em;
+    margin: 1em 2em;
 }
 
 .gallerie .animaux-container .animaux-header {
     text-align: left;
 }
 .gallerie .animaux-container .animal-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 6em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8em;
 }
 
 .gallerie .animaux-container .animal-container .animal {
-    padding: 2em 0;
-    margin: 2em 0;
-    width: 100%;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,19 +84,22 @@
 }
 
 
-.afrique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
+.afrique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(4) {
 
     background-color: antiquewhite;
 }
 
 .afrique-body .gallerie .animaux-container .animal-container .animal .info {
-    padding: 1em 5em;
-    width: 70%;
+    width: 100%;
+}
+.afrique-body .gallerie .animaux-container .animal-container .animal .info h3 {
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 .afrique-body .gallerie .animaux-container .animal-container .animal .info p {
-    font-size: 1.5em;
-    padding: 0 2em;
+    font-size: 1em;
+    padding: 1em 0.5em;
     text-align: center;
     display: block;
 }
@@ -108,7 +107,7 @@
 
 .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
-    width: 80%;
+    width: 50%;
 }
 
 .jeu {

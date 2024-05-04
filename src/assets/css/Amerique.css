@@ -44,43 +44,70 @@
     font-family: "Fira Sans";
     font-weight: 500;
 }
+.gallerie .animaux-container {
+    padding: 1em 2em;
+    margin: 1em 2em;
+}
+
+.gallerie .animaux-container .animaux-header {
+    text-align: left;
+}
+.gallerie .animaux-container .animal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8em;
+}
+
+.gallerie .animaux-container .animal-container .animal {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
 .amerique-body .gallerie .categories .item:nth-of-type(1) span, .amerique-body .gallerie .categories .item:nth-of-type(3) span {
-    background-color: var(--vert-fonce);
+    background-color: var(--bleu-vert);
     
 }
 
 .amerique-body .gallerie .categories .item:nth-of-type(2) span {
-    background-color: var(--vert);
+    background-color: var(--turquoise);
 }
 
 .amerique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
 
-    background-color: rgba(70, 182, 170, 0.501);
- }
- 
- 
- .amerique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
- 
-    background-color: rgba(70, 182, 170, 0.501);
- }
- 
+   background-color: rgba(45, 171, 159, 0.148);
+}
+
+
+.amerique-body .gallerie .animaux-container .animal-container .animal:nth-of-type(4) {
+
+    background-color: rgba(45, 171, 159, 0.148);
+}
+
 .amerique-body .gallerie .animaux-container .animal-container .animal .info {
-     padding: 1em 5em;
-     width: 70%;
- }
- 
+    width: 100%;
+}
+.amerique-body .gallerie .animaux-container .animal-container .animal .info h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
 .amerique-body .gallerie .animaux-container .animal-container .animal .info p {
-     font-size: 1.5em;
-     padding: 0 2em;
-     text-align: center;
-     display: block;
- }
- 
- 
-.amerique-body .gallerie .animaux-container .animal-container .animal .image img {
-     border-radius: 2em;
-     width: 80%;
- }
+    font-size: 1em;
+    padding: 1em 0.5em;
+    text-align: center;
+    display: block;
+}
+
+
+.gallerie .animaux-container .animal-container .animal .image img {
+    border-radius: 2em;
+    width: 50%;
+}
 
 .jeu {
     display: flex;

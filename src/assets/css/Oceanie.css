@@ -44,44 +44,62 @@
     font-family: "Fira Sans";
     font-weight: 500;
 }
+.gallerie .animaux-container .animal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8em;
+}
+
+.gallerie .animaux-container .animal-container .animal {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
 .oceanie-body .gallerie .categories .item:nth-of-type(1) span, .oceanie-body .gallerie .categories .item:nth-of-type(3) span {
-    background-color: var(--turquoise-fonce);
+    background-color: var(--vert-fonce);
     
 }
 
 .oceanie-body .gallerie .categories .item:nth-of-type(2) span {
-    background-color: var(--turquoise);
+    background-color: var(--vert);
 }
 
 .oceanie-body .gallerie .animaux-container .animal-container .animal:nth-of-type(1) {
 
-    background-color: rgba(116, 234, 136, 0.247);
- }
- 
- 
- .oceanie-body .gallerie .animaux-container .animal-container .animal:nth-of-type(3) {
- 
-    background-color: rgba(116, 234, 136, 0.247);
- }
- 
- .oceanie-body .gallerie .animaux-container .animal-container .animal .info {
-     padding: 1em 5em;
-     width: 70%;
- }
- 
- .oceanie-body .gallerie .animaux-container .animal-container .animal .info p {
-     font-size: 1.5em;
-     padding: 0 2em;
-     text-align: center;
-     display: block;
- }
- 
- 
- .oceanie-body .gallerie .animaux-container .animal-container .animal .image img {
-     border-radius: 2em;
-     width: 80%;
- }
+   background-color: rgba(121, 222, 135, 0.225);
+}
 
+
+.oceanie-body .gallerie .animaux-container .animal-container .animal:nth-of-type(4) {
+
+    background-color: rgba(121, 222, 135, 0.225);
+}
+
+.oceanie-body .gallerie .animaux-container .animal-container .animal .info {
+    width: 100%;
+}
+.oceanie-body .gallerie .animaux-container .animal-container .animal .info h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.oceanie-body .gallerie .animaux-container .animal-container .animal .info p {
+    font-size: 1em;
+    padding: 1em 0.5em;
+    text-align: center;
+    display: block;
+}
+
+
+.gallerie .animaux-container .animal-container .animal .image img {
+    border-radius: 2em;
+    width: 50%;
+}
 
 .jeu {
     display: flex;
