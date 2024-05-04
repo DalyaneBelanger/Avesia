@@ -9,18 +9,14 @@ import { motion } from "framer-motion";
 const Header = () => {
     return (
         
-          <motion.header
-          initial={{ x: "20%", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: "-20%", opacity: 0, transition: { duration: 0.2 } }}
-          transition={{ delay: 0, duration: 1 }}>
+          <header>
             <div className="barre-haut">
                 <div className="icone-barre">
-                    <a href="#"><img src="" alt="" />
+                    <Link to="/home">
                     <span class="material-icons">
                       menu
                     </span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="titre-site">
                     <Link to="/home"><h2>Avesia</h2></Link>
@@ -50,7 +46,7 @@ const Header = () => {
 
 
 
-          </motion.header>
+          </header>
         
     )
 }
