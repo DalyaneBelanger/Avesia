@@ -58,7 +58,7 @@ const Asie = () => {
                 <article className="animaux-container">
                     <div className="animaux-header">
                         <h1>Quelques animaux de cette région</h1>
-                        <p>Voici un courte présentation des animaux du continent de l'Asie.</p>
+                        <p>Voici une courte présentation des animaux du continent de l'Asie.</p>
                     </div>
                     <div className="animal-container">
                     <div className="animal">
