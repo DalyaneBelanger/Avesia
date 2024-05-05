@@ -9,7 +9,12 @@ import { motion } from "framer-motion";
 const Header = () => {
     return (
         
-          <header>
+          <motion.header  
+          initial={{ x: "20%", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: "-20%", opacity: 0, transition: { duration: 0.2 } }}
+          transition={{ delay: 0, duration: 0.2 }}>
+
             <div className="barre-haut">
                 <div className="icone-barre">
                     <Link to="/home">
@@ -18,10 +23,14 @@ const Header = () => {
                     </span>
                     </Link>
                 </div>
-                <div className="titre-site">
+                <motion.div className="titre-site"
+                
+                    whileHover={{ scale: 1.2 }}
+                    onHoverStart={e => {}}
+                    onHoverEnd={e => {}}>
                     <Link to="/home"><h2>Avesia</h2></Link>
                     
-                </div>
+                </motion.div>
                 <div className="credit">
                     <Link to="/credits"> Dites Bonjour ! </Link>
                 </div>
@@ -29,7 +38,9 @@ const Header = () => {
             </div>
             <div className="logo">
                 <p>Appréciez la beauté de la faune sauvage.</p>
-                <img src={Logo} alt="" />
+                <motion.img src={Logo} alt="" whileHover={{ scale: 1.2 }}
+                    onHoverStart={e => {}}
+                    onHoverEnd={e => {}}/>
             </div>
             
             <div className="menu">
@@ -46,7 +57,7 @@ const Header = () => {
 
 
 
-          </header>
+          </motion.header>
         
     )
 }
