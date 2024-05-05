@@ -111,6 +111,14 @@
 .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
     width: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.gallerie .animaux-container .animal-container .animal .image img:hover {
+    width: 60%;
+    box-shadow: 1em 1em var(--orange-fonce);
+    transition: all 0.2s ease-in-out;
+    rotate: 5deg;
 }
 
 .jeu {
