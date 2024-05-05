@@ -1,3 +1,4 @@
+
 .afrique-body .gallerie {
     padding: 2em;
 }
@@ -6,12 +7,13 @@
     font-family: "Rubik";
     font-size: 5em;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
     color: var(--noir);
 }
 .afrique-body .gallerie p {
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
+    padding: 0 3em;
 }
 
 .afrique-body .gallerie .categories {
@@ -38,6 +40,7 @@
     font-size: 7em;
     padding: 0.5em 0.9em;
     border-radius: 0.2em;
+    color: var(--blanc);
     
 }
 .afrique-body .gallerie .categories .item p {

@@ -26,8 +26,7 @@ const Home = () =>
                 de l'information concernant nos amis les animaux sauvages à travers le monde.
                 Cet organisme est un moyen d’apprécier la nature de manière virtuelle et d'en apprendre
                 davantage sur chaque espèce présente dans l'expédition.
-            </p>
-            <p>
+            
                 Bien sûr, ce qui est illustré est moins réaliste,
                 car il s'agit d'une simulation qui permet de visualiser ce
                 que le monde peut offrir grâce à la technologie et au contenu multimédia,

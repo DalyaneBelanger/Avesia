@@ -4,8 +4,7 @@
 
 .home .presentation {
     background-color: var(--orange);
-    width: 100%;
-    padding: 4em 0;
+    padding: 4em;
 }
 
 .home .home-main {
@@ -17,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1em 2em;
+    padding: 1em 4em;
 }
 
 .home .home-main .expedition .expedition-container {
@@ -26,11 +25,18 @@
     align-items: center;
     justify-content: center;
     margin-top: 10em;
+    width: 100%;
+    padding: 1em 2em;
 }
 
 
 .home .home-main .expedition .expedition-container .texte h3 {
     font-size: 4em;
+}
+
+
+.home .home-main .expedition .expedition-container .texte {
+   padding-left: 4em;
 }
 
 .home .home-main .expedition .expedition-container .texte span {
@@ -68,7 +74,7 @@
 }
 
 .home .home-main .expedition .expedition-container .module {
-    padding: 4em 1em;
+    padding: 4em 0;
     width: 100%;
 }
 

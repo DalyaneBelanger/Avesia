@@ -6,12 +6,13 @@
     font-family: "Rubik";
     font-size: 5em;
     font-weight: 900;
-    text-align: left;
+    text-align: center;
     color: var(--noir);
 }
 .antarticque-body .gallerie p {
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
+    padding: 0 3em;
 }
 
 .antarticque-body .gallerie .categories {
