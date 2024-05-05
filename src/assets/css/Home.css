@@ -1,214 +1,227 @@
-main {
-    display: flex;
-    flex-direction: column;
-    
+.home {
+    width: 100%;
 }
 
-
-main article {
-    padding: 4em 0.5em;
-    
-    
+.home .presentation {
+    background-color: var(--orange);
+    padding: 4em;
 }
-main article h2 {
-    font-family: "Rubik";
-    font-weight: 900;
+
+.home .presentation h2 {
     font-size: 5em;
-    text-align: left;
 }
 
-main .presentation {
-    padding: 2em 8em;
+.home .presentation p {
+    padding: 1em 2em;
+    font-size: 1.8em;
 }
 
-main .presentation .title {
+.home .presentation img {
+    width: 100%;
+}
+
+.home .presentation span {
+    font-size: 1.9em;
+    font-family: "Fira Sans";
+    color: var(--blanc);
+}
+
+.home .home-main {
+    width: 100%;
     position: relative;
 }
 
-main .presentation .title h2 {
-    font-size: 4em;
-    font-family: 'Inter';
-    font-weight: 800;
-    z-index: 30;
-}
-main .presentation .title span {
-    position: absolute;
-    color: var(--orange-rouge);
-    font-family: "Rubik";
-    font-weight: 900;
-    font-size: 9em;
+.home .home-main .expedition .bulle {
     width: 100%;
-    left: 0;
-    top: -80px;
-    z-index: 1;
-    opacity: 20%;
+    background-image: url("../img/png/bulle.png");
+    background-position: bottom;
+    background-size: cover;
 }
-main .presentation p {
-    font-weight: 700;
-    font-size: 1.5em;
-    padding: 0.2em 9em;
+
+.home .home-main .expedition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 4em;
+}
+
+.home .home-main .expedition h2 {
+    font-size: 4.5em;
+    width: 100%;
     text-align: left;
 }
 
-main article:first-of-type > h2 {
-    
-    padding-top: 2em;
-    padding-bottom: 1em;
-}
-main article:first-of-type {
-    background-color: var(--orange);
+.home .home-main .expedition p {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: left;
 }
 
-main article:nth-of-type(2) {
-    padding: 0 4em;
-}
-article .boite {
-    width: 100%;
-    margin: 2em;
-    padding: 4em 0;
+.home .home-main .expedition .expedition-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-}
-
-article > .boite .nom {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    align-items: baseline;
     justify-content: center;
+    margin-top: 10em;
+    width: 100%;
+    padding: 1em 2em;
 }
 
-article > .boite .nom h3 {
-    font-size: 2em;
-    font-weight: 800;
+
+.home .home-main .expedition .expedition-container .texte h3 {
+    font-size: 4em;
+}
+
+
+.home .home-main .expedition .expedition-container .texte {
+   padding: 4em 2em;
+   width: 50%;
+}
+
+.home .home-main .expedition .expedition-container .texte span {
+    font-size: 0.4em;
+    display: block;
+}
+
+.home .home-main .expedition .expedition-container .texte a {
+   background-color: var(--orange);
+   padding: 1em 4em;
+   font-family: "Fira Sans";
+   font-size: 1.5em;
+   font-weight: 700;
+   border-radius: 1em;
+}
+
+.home .home-main .expedition .expedition-container .texte a:hover {
+    padding: 1em 6em;
+    font-size: 1.5em;
+    transition: all 0.5s ease-in-out;
     
 }
-article > .boite .nom a {
-    font-size: 2em;
-    font-family: "Rubik";
-    font-weight: 900;
-    background-color: var(--orange);
-    padding: 0.5em 2em;
-    border-radius: 1em;
-    color: var(--blanc);
-    transition: background-color 0.5s ease, color 0.5s ease;
+
+.home .home-main .expedition .expedition-container:nth-of-type(1) .texte a:hover {
+    background-color: var(--orange-fonce);
 }
 
-article > .boite .nom a:hover {
-    background-color: var(--noir);
-    transition: 0.5s;
-    padding: 1em 3em;
+.home .home-main .expedition .expedition-container:nth-of-type(1) {
+    background-image: url("../img/png/bkg1.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1000px;
 }
 
-article > .boite .module {
-    height: 90vh;
+.home .home-main .expedition .expedition-container:nth-of-type(2) {
+    background-image: url("../img/png/bkg2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    flex-direction: row-reverse;
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(3) {
+    background-image: url("../img/png/bk3.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(4) {
+    background-image: url("../img/png/bk4.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    flex-direction: row-reverse;
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(5) {
+    background-image: url("../img/png/bk5.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(2) .texte a:hover {
+    background-color: var(--bleu-fonce);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(3) .texte a:hover {
+    background-color: var(--magenta-rouge);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(4) .texte a:hover {
+    background-color: var(--vert-fonce);
+}
+
+.home .home-main .expedition .expedition-container:nth-of-type(5) .texte a:hover {
+    background-color: var(--turquoise-fonce);
+}
+
+.home .home-main .expedition .expedition-container .module {
+    padding: 4em 0;
     width: 100%;
 }
 
-.experience {
+.information article {
+    padding: 2em 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.experience h3 {
-    font-family: "Rubik";
-    font-weight: 900;
-    font-size: 3em;
-    text-align: left;
-    color: var(--orange);
     
 }
-.experience p {
-   text-align: left;
-   color: var(--noir);
-   font-weight: 900;
-   padding: 0.5em;
-}
-.experience .bulle {
-    border-radius: 2em 2em 0 0;
-    padding: 2em 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
 
-.experience .bulle h2 {
-    font-family: "Rubik";
-    font-weight: 900;
+.information article h3 {
     font-size: 4em;
     text-align: left;
 }
 
-.experience .bulle div {
-    width: 100%;
-    margin: 2em;
-    padding: 5em;
-}
-.experience .bulle img {
-    width: 100%;
-    
-}
-
-.experience .bulle p {
-    font-weight: 700;
-    font-size: 1.5em;
-    padding: 0.2em 2em;
-    text-align: left;
-}
-
-
-
-
 .separateur {
     width: 100%;
-    padding: 2em;
-    height: 100vh;
+    background-color: var(--orange);
+    padding: 4em 1em;
 }
 
-.separateur .module {
+
+.scroll-container {
     width: 100%;
-    height: 100vh;
+    padding: 4em 1em;
+    background-color: var(--orange);
+    overflow: hidden;
+    margin-top: 2em;
 }
 
-.zoos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.zoos h3 {
+.scroll-container .texte {
+    text-align: right;
+    font-size: 5em;
     font-family: "Rubik";
-    font-weight: 900;
-    font-size: 3em;
-    text-align: center;
-    color: var(--noir);
-    padding: 2em;
-    
-}
-
-.zoos .categories {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.zoos .categories h3 {
-    font-size: 2em;
+    font-weight: 700;
     color: var(--blanc);
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
 }
-.zoos .categories div {
-    border-radius: 1em;
 
-}
-.zoos .categories .module {
-    width: 100%;
-    height: 70vh;
-}
-
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }

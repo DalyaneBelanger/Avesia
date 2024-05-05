@@ -23,7 +23,7 @@ const Antarticque = () => {
                 
             </header>
             <div className="gallerie">
-                <h1>À Propos de l'Antarticque</h1>
+                <h1>À Propos de l'Antarctique</h1>
                 <p>On vous présente le continent le plus glacé du monde entier.</p>
                 <p className="paragraphe">
                 L'Antarctique est un continent unique et mystérieux,
@@ -59,7 +59,7 @@ const Antarticque = () => {
                 <article className="animaux-container">
                     <div className="animaux-header">
                         <h1>Quelques animaux de cette région</h1>
-                        <p>Voici un courte présentation des animaux du continent de l'afrique - cliquez pour en savoir plus sur chaque animal qui attire votre attention !</p>
+                        <p>Voici un courte présentation des animaux du continent de l'Antarctique.</p>
                     </div>
                     <div className="animal-container">
                     <div className="animal">
@@ -99,7 +99,7 @@ const Antarticque = () => {
                         
                         <div className="info">
                             <h3>L'ours polaire</h3>
-                            <p>Ce mammifère omnivore originaire de l'Antarticque,
+                            <p>Ce mammifère omnivore originaire de l'Antarctique,
                                 possède un pelage graisseux et épais qui le prot`ge du froid.
                                 Il est aussi bon chasseur sous l'eau qu'à l'extérieur. </p>
                         </div>

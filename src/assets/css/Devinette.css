@@ -9,9 +9,10 @@
   } 
     
   h1 { 
-    font-size: 36px; 
-    margin-bottom: 30px; 
-    color: var(--orange);
+    font-family: "Rubik";
+    font-weight: 900;
+    color: var(--noir);
+    padding: 1em 2em;
   } 
     
   .mot-container { 
@@ -91,7 +92,8 @@
     margin: 1em 0.5em; 
   } 
     
-  .lettre-button { 
+  .lettre-button {
+    font-family: "Rubik"; 
     padding: 2em; 
     margin: 5px; 
     font-size: 16px; 
@@ -103,6 +105,16 @@
     cursor: pointer; 
     transition: background-color 0.2s ease-in-out; 
   } 
+
+  .lettre-button:hover {
+    background-image: url("../img/jpg/zoo-background.jpg");
+    background-position: center;
+    background-size: 300px;
+    color: var(--noir);
+    font-weight: 900;
+    transition: 1s ease-in-out;
+    padding: 2.5em;
+  }
     
   .lettre-button.selected { 
     background-color: var(--orange-rouge); 
@@ -179,8 +191,8 @@
     outline: none; 
   } 
   .mot-description { 
-    font-size: 18px; 
-    font-style: bold; 
-    color: rgb(0, 0, 0); 
-    margin-bottom: 20px; 
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 1.5em; 
+    margin-bottom: 2em; 
   }
