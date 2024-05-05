@@ -117,11 +117,12 @@ const Home = () =>
 
                 </div>
 
-                <div className="saviez-vous-container">
-                    <div className="saviez-vous">
-                        Instruisez-vous d'une façon éclair !
+                <div className="scroll-container">
+                    <div className="texte">
+                        Instruisez-vous d'une façon éclair ! <br />
                     </div>
                 </div>
+
 
                 <div className="separateur">
 

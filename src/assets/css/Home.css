@@ -7,8 +7,24 @@
     padding: 4em;
 }
 
+.home .presentation h2 {
+    font-size: 5em;
+}
+
+.home .presentation p {
+    padding: 1em 2em;
+    font-size: 1.8em;
+}
+
+.home .presentation span {
+    font-size: 1.9em;
+    font-family: "Fira Sans";
+    color: var(--blanc);
+}
+
 .home .home-main {
     width: 100%;
+    position: relative;
 }
 
 .home .home-main .expedition {
@@ -17,6 +33,18 @@
     align-items: center;
     justify-content: center;
     padding: 1em 4em;
+}
+
+.home .home-main .expedition h2 {
+    font-size: 4.5em;
+    width: 100%;
+    text-align: left;
+}
+
+.home .home-main .expedition p {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: left;
 }
 
 .home .home-main .expedition .expedition-container {
@@ -36,7 +64,8 @@
 
 
 .home .home-main .expedition .expedition-container .texte {
-   padding-left: 4em;
+   padding: 4em 2em;
+   width: 50%;
 }
 
 .home .home-main .expedition .expedition-container .texte span {
@@ -51,6 +80,13 @@
    font-size: 1.5em;
    font-weight: 700;
    border-radius: 1em;
+}
+
+.home .home-main .expedition .expedition-container .texte a:hover {
+    padding: 1em 6em;
+    font-size: 1.5em;
+    transition: all 0.5s ease-in-out;
+    
 }
 
 .home .home-main .expedition .expedition-container:nth-of-type(1) .texte a:hover {
@@ -78,3 +114,59 @@
     width: 100%;
 }
 
+.information article {
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.information article h3 {
+    font-size: 4em;
+    text-align: left;
+}
+
+
+
+.scroll-container {
+    width: 100%;
+    padding: 4em 0;
+    background-color: var(--orange);
+    overflow: hidden;
+}
+
+.scroll-container .texte {
+    text-align: right;
+    font-size: 5em;
+    font-family: "Rubik";
+    font-weight: 700;
+    color: var(--blanc);
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
