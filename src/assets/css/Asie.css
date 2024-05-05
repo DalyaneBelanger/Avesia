@@ -97,13 +97,13 @@
 }
 
 
-.gallerie .animaux-container .animal-container .animal .image img {
+.asie-body .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
     width: 50%;
     transition: all 0.2s ease-in-out;
 }
 
-.gallerie .animaux-container .animal-container .animal .image img:hover {
+.asie-body .gallerie .animaux-container .animal-container .animal .image img:hover {
     width: 60%;
     box-shadow: 1em 1em var(--magenta-rouge);
     transition: all 0.2s ease-in-out;

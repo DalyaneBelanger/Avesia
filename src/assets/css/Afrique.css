@@ -100,6 +100,8 @@
     text-transform: uppercase;
 }
 
+
+
 .afrique-body .gallerie .animaux-container .animal-container .animal .info p {
     font-size: 1.3em;
     padding: 1em 0.5em;
@@ -108,13 +110,13 @@
 }
 
 
-.gallerie .animaux-container .animal-container .animal .image img {
+.afrique-body .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
     width: 50%;
     transition: all 0.2s ease-in-out;
 }
 
-.gallerie .animaux-container .animal-container .animal .image img:hover {
+.afrique-body .gallerie .animaux-container .animal-container .animal .image img:hover {
     width: 60%;
     box-shadow: 1em 1em var(--orange-fonce);
     transition: all 0.2s ease-in-out;

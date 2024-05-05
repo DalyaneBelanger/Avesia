@@ -105,13 +105,13 @@
 }
 
 
-.gallerie .animaux-container .animal-container .animal .image img {
+.amerique-body .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
     width: 50%;
     transition: all 0.2s ease-in-out;
 }
 
-.gallerie .animaux-container .animal-container .animal .image img:hover {
+.amerique-body .gallerie .animaux-container .animal-container .animal .image img:hover {
     width: 60%;
     box-shadow: 1em 1em var(--bleu-vert);
     transition: all 0.2s ease-in-out;
