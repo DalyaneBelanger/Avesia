@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import Arriere from "../assets/img/jpg/Afrique/back.jpg";
 import "../assets/css/JeuMemoire.css";
 import CarteSeule from "./CarteSeule";
 
