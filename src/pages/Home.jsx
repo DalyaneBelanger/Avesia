@@ -9,6 +9,10 @@ import Toucan from "../assets/img/jpg/toucan.jpg";
 import ScrollToTop from "react-scroll-to-top";
 import Footer from "../components/Footer";
 
+import Smoke from "../assets/img/png/smoke.png";
+import Jeep from "../assets/img/png/jeep.png";
+
+
 
   
 
@@ -44,8 +48,11 @@ const Home = () =>
         </div>
         <div className="home-main">
             <div className="expedition">
-                <h2>Ce que propose l'expédition</h2>
+                <article className="bulle">
+                    <h2>Ce que propose l'expédition</h2>
                 <p>Explorez les 5 continents et découvrez les animaux qui les habitent.</p>
+                </article>
+                
 
                 <div className="expedition-container">
 
@@ -125,6 +132,11 @@ const Home = () =>
 
 
                 <div className="separateur">
+
+                    <div className="image">
+                        <img src={Smoke} alt="" />
+                        <img src={Jeep} alt="" />
+                    </div>
 
                 </div>
 
