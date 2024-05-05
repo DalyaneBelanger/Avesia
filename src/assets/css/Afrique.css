@@ -34,6 +34,13 @@
     box-shadow: 0.9em 0.6em rgba(128, 128, 128, 0.053);
     padding: 2em;
     border-radius: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.afrique-body .gallerie .categories .item:hover {
+    box-shadow: 1em 1em var(--orange-fonce);
+    transition: all 0.2s ease-in-out;
+    rotate: 5deg;
 }
 
 .afrique-body .gallerie .categories .item span {
