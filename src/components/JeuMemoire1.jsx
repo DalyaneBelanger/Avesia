@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react"
-import Arriere from "../assets/img/jpg/Afrique/back.jpg";
 import "../assets/css/JeuMemoire.css";
 import CarteSeule from "./CarteSeule";
 
 const imagesCartes = [
     {"src": "img/jpg/Afrique/boussole.jpg", correspond: false },
-    {"src": "img/jpg/Afrique/chapeau.jpg", correspond: false },
-    {"src": "img/jpg/Afrique/hut.jpg", correspond: false },
-    {"src": "img/jpg/Afrique/jeep.jpg", correspond: false },
+    {"src": "img/jpg/Afrique/terre.jpg", correspond: false },
+    {"src": "img/jpg/Afrique/arbre.jpg", correspond: false },
+    {"src": "img/jpg/Afrique/viande.jpg", correspond: false },
     {"src": "img/jpg/Afrique/jumelles.jpg", correspond: false },
     {"src": "img/jpg/Afrique/patte.jpg", correspond: false }
 ]

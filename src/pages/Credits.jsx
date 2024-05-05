@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import "../assets/css/Credits.css";
 import ScrollToTop from "react-scroll-to-top";
 
+import { motion } from "framer-motion";
+
 const Credits = () => {
     return (
         <div className="credits-body">
@@ -13,7 +15,8 @@ const Credits = () => {
               <main>
                 <h2>Ce qui a été fait de ma main : </h2>
 
-                <div className="categories">
+                <motion.div className="categories" initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }} >
                     <div className="item">
                     <span class="material-icons">
                       emoji_objects
@@ -44,7 +47,7 @@ const Credits = () => {
                        </span>
                         <p>Programmation et intéractions</p>
                     </div>
-                </div>
+                </motion.div>
                 
               </main>
               <Footer/>

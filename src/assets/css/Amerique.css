@@ -33,6 +33,13 @@
     box-shadow: 0.9em 0.6em rgba(128, 128, 128, 0.053);
     padding: 2em;
     border-radius: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.amerique-body .gallerie .categories .item:hover {
+    box-shadow: 1em 1em var(--bleu-vert);
+    transition: all 0.2s ease-in-out;
+    rotate: 5deg;
 }
 
 .amerique-body .gallerie .categories .item span {
@@ -98,16 +105,24 @@
 }
 
 .amerique-body .gallerie .animaux-container .animal-container .animal .info p {
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 1em 0.5em;
     text-align: center;
     display: block;
 }
 
 
-.gallerie .animaux-container .animal-container .animal .image img {
+.amerique-body .gallerie .animaux-container .animal-container .animal .image img {
     border-radius: 2em;
     width: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.amerique-body .gallerie .animaux-container .animal-container .animal .image img:hover {
+    width: 60%;
+    box-shadow: 1em 1em var(--bleu-vert);
+    transition: all 0.2s ease-in-out;
+    rotate: 5deg;
 }
 
 .jeu {

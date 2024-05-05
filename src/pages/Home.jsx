@@ -13,7 +13,6 @@ import Smoke from "../assets/img/png/smoke.png";
 import Jeep from "../assets/img/png/jeep.png";
 
 
-
   
 
 
@@ -24,6 +23,7 @@ const Home = () =>
         <div className="header">
            <Header/>
         </div>
+        
         <div className="presentation">
             <h2>Qu'est-ce qu'Avesia ?</h2>
             <p>Avesia est un système d'exploration et de développement
