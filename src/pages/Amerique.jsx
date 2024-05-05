@@ -57,7 +57,7 @@ const Amerique = () => {
                 <article className="animaux-container">
                     <div className="animaux-header">
                         <h1>Quelques animaux de cette région</h1>
-                        <p>Voici un courte présentation des animaux du continent de l'afrique - cliquez pour en savoir plus sur chaque animal qui attire votre attention !</p>
+                        <p>Voici un courte présentation des animaux du continent de l'Amérique.</p>
                     </div>
                     <div className="animal-container">
                     <div className="animal">
