@@ -100,7 +100,7 @@ const Antarticque = () => {
                         <div className="info">
                             <h3>L'ours polaire</h3>
                             <p>Ce mammifère omnivore originaire de l'Antarctique,
-                                possède un pelage graisseux et épais qui le prot`ge du froid.
+                                possède un pelage graisseux et épais qui le protège du froid.
                                 Il est aussi bon chasseur sous l'eau qu'à l'extérieur. </p>
                         </div>
                         
